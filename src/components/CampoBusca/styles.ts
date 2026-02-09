@@ -1,14 +1,21 @@
 import { styled } from 'styled-components'
 
 export const CampoBusca = styled.input`
-  display: flex;
-  padding: 8px;
-  background-color: #f3f4f6;
-  border-radius: 8px;
-  border: 1px solid transparent;
   width: 100%;
-  color: #000;
+  padding: 14px 20px;
+  background-color: #f9fafb;
+  border-radius: 12px;
+  border: 1px solid #e5e7eb;
+
+  color: #111827;
   font-size: 16px;
-  padding: 16px 32px;
+
+  transition: all 0.2s ease;
   outline: none;
+
+  &:focus {
+    border-color: #6366f1;
+    background-color: #ffffff;
+    box-shadow: 0 0 0 3px rgba(99, 102, 241, 0.15);
+  }
 `

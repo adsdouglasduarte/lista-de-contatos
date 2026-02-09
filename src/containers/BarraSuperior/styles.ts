@@ -1,14 +1,17 @@
 import styled from 'styled-components'
 
 export const Aside = styled.aside`
-  padding: 32px 0;
+  padding: 24px 0;
   width: 100%;
   display: flex;
   justify-content: center;
-  background-color: #fefefe;
+  background-color: #ffffff;
+  border-bottom: 1px solid #e5e7eb;
+
   position: fixed;
   top: 0;
   left: 0;
+  z-index: 10;
 `
 
 export const AsideContainer = styled.div`

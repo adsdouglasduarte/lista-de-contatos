@@ -7,22 +7,26 @@ export const BotaoFlutuante = styled(Link)`
   justify-content: center;
   align-items: center;
   position: fixed;
-  bottom: 40px;
-  right: 40px;
+  bottom: 32px;
+  right: 32px;
 
-  width: 60px;
-  height: 60px;
+  width: 64px;
+  height: 64px;
 
-  font-size: 28px;
+  font-size: 26px;
   text-decoration: none;
-  color: ${variaveis.azulSecundario};
-  background-color: ${variaveis.azulPrimario};
+  color: #ffffff;
+  background: linear-gradient(
+    135deg,
+    ${variaveis.azulPrimario},
+    ${variaveis.azul2}
+  );
   border-radius: 50%;
-  box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
-  transition: all 0.2s ease-in-out;
+  box-shadow: 0 10px 25px rgba(79, 70, 229, 0.35);
+  transition: all 0.25s ease;
 
   &:hover {
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.3);
-    transform: translateY(-2px);
+    transform: translateY(-4px) scale(1.05);
+    box-shadow: 0 18px 35px rgba(79, 70, 229, 0.45);
   }
 `

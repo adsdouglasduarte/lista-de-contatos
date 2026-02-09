@@ -8,34 +8,34 @@ type TarefasState = {
 const initialState: TarefasState = {
   itens: [
     {
-      id: 1,
-      nome: 'Maria Silva',
-      email: 'maria.silva@email.com',
-      telefone: '(11) 98765-4321'
+      id: 101,
+      nome: 'Lucas Andrade',
+      email: 'lucas.andrade@techmail.dev',
+      telefone: '(11) 91234-5678'
     },
     {
-      id: 2,
-      nome: 'Karla Nascimento',
-      email: 'karla.n@creative.agency',
-      telefone: '(21) 89876-5432'
+      id: 102,
+      nome: 'Renata Pacheco',
+      email: 'renata.p@startup.io',
+      telefone: '(21) 93456-7812'
     },
     {
-      id: 3,
-      nome: 'Gabriela Martins',
-      email: 'gabi.martins@health.care',
-      telefone: '(71) 93210-9876'
+      id: 103,
+      nome: 'Thiago Moreira',
+      email: 'thiago.moreira@digital.co',
+      telefone: '(31) 98765-1122'
     },
     {
-      id: 4,
-      nome: 'Bruno Lima',
-      email: 'bruno.lima@email.com',
-      telefone: '(21) 99876-5432'
+      id: 104,
+      nome: 'Juliana Torres',
+      email: 'juliana.t@uxstudio.design',
+      telefone: '(41) 97654-8899'
     },
     {
-      id: 5,
-      nome: 'Carla Souza',
-      email: 'carla.souza@email.com',
-      telefone: '(31) 97654-3210'
+      id: 105,
+      nome: 'Felipe Rocha',
+      email: 'felipe.rocha@cloud.app',
+      telefone: '(51) 99812-3344'
     }
   ]
 }
